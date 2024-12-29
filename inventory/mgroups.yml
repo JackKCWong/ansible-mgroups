@@ -1,0 +1,12 @@
+plugin: mgroups
+hosts: 
+  host1:
+    groups: group1 group2
+    vars:
+      var1: value1
+      var2: value2
+  host2:
+    groups: group2 group3
+    vars:
+      var1: value3
+      var2: value4
